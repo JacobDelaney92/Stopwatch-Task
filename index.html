@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="app">
+    <section class="stopwatch">
+        <div class="stopwatch__clock">
+            <div class="stopwatch__clock__mins">00</div>
+            <div class="stopwatch__clock__point">:</div>
+            <div class="stopwatch__clock__secs">00</div>
+            <div class="stopwatch__clock__point">.</div>
+            <div class="stopwatch__clock__mils">00</div>
+        </div>
+        <div class="stopwatch__btns">
+            <button class="stopwatch__btns__strt-stop">Start</button>
+            <button class="stopwatch__btns__reset">Reset</button>
+            <button class="stopwatch__btns__lap">Lap</button>
+        </div>
+        <ul class="stopwatch__lap-time">
+        </ul>
+        <button class="stopwatch__history">History</button>
+    </section>
+    <section class="history">
+        <h1>No Laps Recorded +</h1>
+        <ul class="history__laps"></ul>
+        <div class="history__btns">
+            <button class="history__btns__clear">clear History</button>
+            <button class="history__btns__close">close</button>
+        </div>
+
+
+    </section>
+</section>
+    <script src="timer.js"></script>
+
+</body>
+</html>
